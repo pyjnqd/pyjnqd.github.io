@@ -9,7 +9,7 @@ profile:
   image: white.png
   image_circular: true # crops the image to make it circular
   address: >
-    <p>No.2006, Xiyuan Ave, West Hi-Tech Zone</p>
+    <p>No.2006, Xiyuan Ave</p>
     <p>Chengdu, Panda's Hometown</p>
 
 news: true  # includes a list of news items
