@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I have visited [NARI Group](https://job.sgepri.sgcc.com.cn/nari-career-ui/knownari/aboutnari) located in Nanjing
+title: I have visited NARI Group located in Nanjing
 date: 2023-08-24
 inline: false
 related_posts: false
