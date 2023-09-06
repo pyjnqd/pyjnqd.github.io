@@ -8,7 +8,7 @@ category: work
 giscus_comments: true
 ---
 
-<p>This project was finished in 2020. Active Hazard Detection System in Thermal Power Plant is a protection strategy and aims to detect danger threating the workers in advance by computer vision and artificial intelligence algorithms. These potential dangers include too close from electronic conveyer, without helmet, illegal entrance to danger zone(high voltage) and so on. </p>
+<p>This project was finished in 2020 with <a href="https://www.researchgate.net/profile/Zengrui-Zhao-2">Zengrui Zhao</a>. Active Hazard Detection System in Thermal Power Plant is a protection strategy and aims to detect danger threating the workers in advance by computer vision and artificial intelligence algorithms. These potential dangers include too close from electronic conveyer, without helmet, illegal entrance to danger zone(high voltage) and so on. </p>
 
 <p>The difficulty lies on lack of data and high recall rate requirement. That is to say, we must detect hazard as much as possible because the result is catastrophic once we lose one. We had two and one half tough months staying in Power Plant and fortunately we met with the performance requirements. An exciting news is that the system prevents a novice from entering a dangerous zone illegally <b>on the first online day</b> and prove its practicality.</p>
 
