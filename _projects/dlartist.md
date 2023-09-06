@@ -12,7 +12,7 @@ category: work
 <p>DLArtist is an auto-typesetting system and it free the specialist from heavy typesetting work. It works at a very simple way, and you only collect texts and images materials needed and then import them into the system. The left thing is just waiting, and you will get a wonderful typesetting magazine article in half minute.</p>
 
 <p>Maybe you are confused on why do not we use AI to generate texts and images?</p>
-<p>That is a good problem. AI techniques, especially image and text generating, are not advanced enough to achieve it at that time(2018). AI will output some words repeatedly, and blurry images. Surprised by rich development of generative AI after 2022, I think this project will have a better future. </p>
+<p>That is a good problem. AI techniques, especially image and text generating, are not advanced enough to achieve it at that time(2018). AI always output some words repeatedly, and blurry images. Surprised by rich development of generative AI after 2022, I think this project will have a better future. </p>
 
 <p>Now you can admire some results representation, and the following video shows more details.</p>
 
@@ -28,7 +28,7 @@ category: work
     </div>
 </div>
 <div class="caption">
-    Some typesetting results.
+    Some auto-typesetting results.
 </div>
 
 
