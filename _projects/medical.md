@@ -1,9 +1,9 @@
 ---
 layout: page
-title: DLArtist - An Amazing Auto-Typesetting System 
-description: DLArtist make magazine materials typesetting without any human effort!
-img: assets/img/1.png
-importance: 4
+title: ophthalmic medicine program
+# description: DLArtist make magazine materials typesetting without any human effort!
+img: assets/img/20.png
+importance: 1
 category: work
 # related_publications: einstein1956investigations, einstein1950meaning
 ---
