@@ -26,7 +26,7 @@ My research interests include computer vision and artificial intelligence, espec
 
 [Others] What's the meaning of **pyjnqd** in my gmail address?
 
-My hometown is a small industrial city called [**PuYang**](https://en.wikipedia.org/wiki/Puyang), and I have studied in [**JiNan**](https://en.wikipedia.org/wiki/Jinan) and [**QingDao**](https://en.wikipedia.org/wiki/Qingdao). Bachelor's experience in these two cities changes me a lot and the name **pyjnqd** lets me remember where I come from and have stayed, with rich self-development. Thanks for the love and support from my family.
+My hometown is a small industrial city called [**PuYang**](https://en.wikipedia.org/wiki/Puyang), and I have studied in [**JiNan**](https://en.wikipedia.org/wiki/Jinan) and [**QingDao**](https://en.wikipedia.org/wiki/Qingdao). Bachelor's experience in these two cities changes me a lot and the name pyjnqd lets me remember where I come from and have stayed, with rich self-development. Thanks for the love and support from my family.
 
 
 
