@@ -27,7 +27,7 @@ Now I'm actively seeking admission to a full-time Ph.D program at Fall 2024, and
 
 
 [Others] What's the meaning of **pyjnqd** in my gmail address?
-My hometown is a small industrial city called [**P**u**Y**ang](https://en.wikipedia.org/wiki/Puyang), and I have studied in [**J**i**N**an](https://en.wikipedia.org/wiki/Jinan)(freshman) and [**Q**ing**D**ao](https://en.wikipedia.org/wiki/Qingdao)(left 3 years in undergraduate). Bachelor's experience in Shandong Univ changes me a lot and the name **pyjnqd** lets me remember where I come from and have stayed, with rich self-development. Thanks for the love and support from my family.
+My hometown is a small industrial city called [**P**u**Y**ang](https://en.wikipedia.org/wiki/Puyang), and I have studied in [**J**i**N**an](https://en.wikipedia.org/wiki/Jinan) and [**Q**ing**D**ao](https://en.wikipedia.org/wiki/Qingdao). Bachelor's experience in these two cities changes me a lot and the name **pyjnqd** lets me remember where I come from and have stayed, with rich self-development. Thanks for the love and support from my family.
 
 
 
