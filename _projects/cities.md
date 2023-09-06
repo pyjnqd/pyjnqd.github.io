@@ -1,34 +1,41 @@
 ---
 layout: page
-title: DLArtist - An Amazing Auto-Typesetting System 
-description: DLArtist make magazine materials typesetting without any human effort!
-img: assets/img/1.png
-importance: 4
-category: work
+title: Cities Have Visited
+# description: DLArtist make magazine materials typesetting without any human effort!
+img: assets/img/17.png
+importance: 1
+category: fun
 # related_publications: einstein1956investigations, einstein1950meaning
 ---
-<p>This amazing project was archived in May 2019. Very Delighted to cooperate with <a href="https://www.linkedin.com/in/chuyang-z-ba6aaa208/">Chuyang Zhao</a> and <a href="https://scholar.google.com/citations?user=3BWr5lcAAAAJ&hl=zh-CN">Runzhen Xue</a> in Shandong Univ. The source code is available in <a href="https://github.com/ZhaoChuyang/DLArtist">github</a>. </p>
-
-<p>DLArtist is an auto-typesetting system and it free the specialist from heavy typesetting work. It works at a very simple way, and you only collect texts and images materials needed and then import them into the system. The left thing is just waiting, and you will get a wonderful typesetting magazine article in half minute.</p>
-
-<p>Maybe you are confused on why do not we use AI to generate texts and images?</p>
-<p>That is a good problem. AI techniques, especially image and text generating, are not advanced enough to achieve it at that time(2018). AI always output some words repeatedly, and blurry images. Surprised by rich development of generative AI after 2022, I think this project will have a better future. </p>
-
-<p>Now you can admire some results representation, and the following video shows more details.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2.png" title="2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/5.png" title="2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.png" title="3" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/9.png" title="3" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/4.png" title="4" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/17.png" title="4" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Some auto-typesetting results.
+    <a href="https://en.wikipedia.org/wiki/Zibo">Zibo</a>, <a href="https://en.wikipedia.org/wiki/Nanjing">Nanjing</a> and <a href="https://en.wikipedia.org/wiki/Qingdao">Qingdao</a>, all in China. My undergraduate university is located in Qingdao.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/16.png" title="2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/12.png" title="3" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/15.png" title="4" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    <a href="https://en.wikipedia.org/wiki/Chengdu">Chengdu</a>(1) and <a href="https://en.wikipedia.org/wiki/Guiyang">Guiyang</a>(2&3), and 1 is shot outside of my graduate university.
 </div>
 
 

@@ -10,7 +10,7 @@ giscus_comments: true
 
 <p>This project was finished in 2020. Active Hazard Detection System in Thermal Power Plant is a protection strategy and aims to detect danger threating the workers in advance by computer vision and artificial intelligence algorithms. These potential dangers include too close from electronic conveyer, without helmet, illegal entrance to danger zone(high voltage) and so on. </p>
 
-<p>The difficulty lies on lack of data and high recall rate requirement. That is to say, we must detect hazard as much as possible because the result is catastrophic once we lose one. We had two and one half tough months staying in Power Plant and fortunately we met with the performance requirements. An exciting news is that the system prevent a novice from entering a dangerous zone illegally and prove its practicality.</p>
+<p>The difficulty lies on lack of data and high recall rate requirement. That is to say, we must detect hazard as much as possible because the result is catastrophic once we lose one. We had two and one half tough months staying in Power Plant and fortunately we met with the performance requirements. An exciting news is that the system prevents a novice from entering a dangerous zone illegally <b>on the first online day</b> and prove its practicality.</p>
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -22,15 +22,6 @@ giscus_comments: true
 </div>
 <div class="caption">
     A classical motion detection algo, fast and stable. We deploy it for saving computation cost.
-</div>
-
-<div class="row" style="align-items: center; justify-content: center; weight:50%;height:auto">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-   Night at Power Plant
 </div>
 
 
