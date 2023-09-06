@@ -35,7 +35,9 @@ category: work
 
 
 <p>Pls contact me if you want to learn more about the technique details and get technique reports.</p>
-<div class="row"><source src="https://www.instagram.com/reel/Cw1eh8iIZce/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="  type="video/mp4"></div>
+<div class="row">
+<iframe src="https://www.instagram.com/reel/Cw1eh8iIZce/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="></iframe>
+</div>
 (If you are in China Mainland, pls click <a href="https://video.weibo.com/show?fid=1034:4552698192658451">this video link</a>.)
 
 
