@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publication (Agent Group)</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container main-content">
+        <header class="page-header">
+            <h1 class="page-title">Publications</h1>
+        </header>
+
+        <!-- Dynamic Graph Section (Custom HTML to precisely match logical diagram) -->
+        <section class="roadmap-section">
+            
+            <div class="roadmap-grid">
+                
+                <!-- Column 1: Data-Centric AI -->
+                <div class="roadmap-col">
+                    <div class="roadmap-header theme-brown">
+                        <h3>Data-Centric<br>Embodied AI</h3>
+                    </div>
+                    <div class="roadmap-tree primary-tree empty-tree">
+                        <!-- No papers in this node initially -->
+                    </div>
+                </div>
+
+                <!-- Shift Arrow (No text) -->
+                <div class="roadmap-divider">
+                    <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                </div>
+
+                <!-- Column 2: Pre-training Generalization -->
+                <div class="roadmap-col">
+                    <div class="roadmap-header theme-brown">
+                        <h3>Pre-training Generalization of<br>Embodied Foundation Models</h3>
+                    </div>
+                    
+                    <div class="roadmap-tree primary-tree">
+                        <a href="#robocoin" class="rm-card">
+                            <h4>RoboCOIN: An Open-Sourced Bimanual Robotic Data Collection for Integrated Manipulation. <span class="rm-tag preprint">Preprint</span></h4>
+                        </a>
+                        <a href="#shortcut" class="rm-card">
+                            <h4>Shortcut Learning in Generalist Robot Policies. <span class="rm-tag">CoRL 2025</span></h4>
+                        </a>
+                        <a href="#pcd" class="rm-card">
+                            <h4>Policy Contrastive Decoding. <span class="rm-tag">ICLR 2026</span></h4>
+                        </a>
+                        <a href="#inspire" class="rm-card">
+                            <h4>Intrinsic Spatial Reasoning. <span class="rm-tag">ICRA 2026</span></h4>
+                        </a>
+                        <a href="#long-tail" class="rm-card">
+                            <h4>Beyond the Majority: Long-tail Imitation Learning for Robotic Manipulation. <span class="rm-tag">ICRA 2026</span></h4>
+                        </a>
+                        <a href="#sim-human" class="rm-card">
+                            <h4>Sim-and-Human Co-training for Data-Efficient and Generalizable Robotic Manipulation. <span class="rm-tag preprint">Preprint</span></h4>
+                        </a>
+                        <a href="#mivla" class="rm-card">
+                            <h4>MiVLA: Towards Generalizable Vision-Language-Action Model with Human-Robot Mutual Imitation Pre-training. <span class="rm-tag preprint">Preprint</span></h4>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Shift Arrow (Paradigm Shift) -->
+                <div class="roadmap-divider">
+                    <span class="shift-text">Paradigm Shift</span>
+                    <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                </div>
+
+                <!-- Column 3: Self-learning -->
+                <div class="roadmap-col">
+                    <div class="roadmap-header theme-brown">
+                        <h3>Self-Learning & Adaptation of<br>Embodied Foundation Models</h3>
+                    </div>
+                    <div class="roadmap-tree primary-tree">
+                        <a href="#in-context" class="rm-card">
+                            <h4>In-Context Adaptation for Generalizable Imitation Learning. <span class="rm-tag">RemembeRL Workshop Spotlight, CoRL 2025</span></h4>
+                        </a>
+                        <a href="#test-time" class="rm-card">
+                            <h4>Test-Time Scaling of Vision-Language-Action Models via Self-Certainty. <span class="rm-tag">Eval&Deploy Workshop, CoRL 2025</span></h4>
+                        </a>
+                        <div class="rm-card future-card">
+                            <h4>Coming Soon ...</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <p class="graph-hint">💡 Tap on any paper block above to scroll to its detailed entry.</p>
+        </section>
+
+        <section class="publications-list" id="projects-container">
+            <!-- Projects injected by JS -->
+        </section>
+    </div>
+    
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

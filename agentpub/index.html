@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,20 +8,95 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <div class="container main-content">
+    <div class="container">
         <header class="page-header">
-            <h1 class="page-title">Publications</h1>
+            <h1 class="page-title">Gao's Agent Group</h1>
         </header>
 
+        <!-- Research Vision Section -->
+        <section class="research-vision">
+            <h2 class="section-title" style="font-size: 1.8rem;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                </svg>
+                Research Vision
+            </h2>
+            <div class="vision-content">
+                <div class="vision-text">
+                    <p>Our research group is dedicated to solving the fundamental science problems of Embodied AI, 
+                        prioritizing rigorous inquiry into real-world generalization. Anticipating the bottlenecks of future robot deployment, 
+                        we study the dynamics of policy pretraining, specifically taxonomy, scaling behaviors and efficiency, 
+                        in a data-centric paradigm. Building on the premise of highly capable pretrained policies, 
+                        our research further explores post-training paradigms for self-evolution, 
+                        developing mechanisms that enable robots to continuously self-iterate, learn from environmental feedback, 
+                        and exhibit dynamic adaptation in unstructured environments.</p>
+                </div>
+                <div class="vision-img-wrapper">
+                    <img src="assets/images/gemini.png" alt="Embodied AI Experiment Station (Stylized by Gemini based on real footage)" />
+                    <p style="font-size: 0.75rem; color: var(--text-light); margin-top: 8px; font-style: italic;">* Image stylized by Gemini based on our lab.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Research Themes Section (Full Width Stripe) -->
+    <section class="research-theme">
+        <div class="container">
+            <h2 class="section-title" style="font-size: 1.8rem;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+                Research Theme
+            </h2>
+
+            <div class="theme-container">
+                <!-- Theme 1: Pre-training Generalization -->
+                <div class="theme-card">
+                    <div class="theme-text">
+                        <h3>Pre-training Generalization</h3>
+                        <p> 
+                            We investigate the fundamental data dynamics required to train robust VLA foundation models, formalizing data curation as a rigorous subject of scientific inquiry. It is critical for us to explore what data recipes are optimal, how to best utilize them, and how to build a comprehensive data pipeline for VLA pre-training generalization.
+
+                    </div>
+                </div>
+
+                <!-- Theme 2: Self-Learning & Adaptation -->
+                <div class="theme-card">
+                    <div class="theme-text">
+                        <h3>Self-Learning & Adaptation</h3>
+                        <p> Our second focus is lifelong adaptation in the wild. Since pre-trained priors are insufficient for open-world environments, robots must continuously self-learn by extracting human or environmental feedback. This autonomous adaptation entails non-trivial ML challenges, including sample efficiency and knowledge representation.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
         <!-- Dynamic Graph Section (Custom HTML to precisely match logical diagram) -->
         <section class="roadmap-section">
-            
+            <h2 class="section-title" style="font-size: 1.8rem;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+                Publications
+            </h2>
+
             <div class="roadmap-grid">
-                
+
                 <!-- Column 1: Data-Centric AI -->
                 <div class="roadmap-col">
                     <div class="roadmap-header theme-brown">
@@ -33,7 +109,10 @@
 
                 <!-- Shift Arrow (No text) -->
                 <div class="roadmap-divider">
-                    <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                    <svg viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" fill="none" />
+                    </svg>
                 </div>
 
                 <!-- Column 2: Pre-training Generalization -->
@@ -41,28 +120,37 @@
                     <div class="roadmap-header theme-brown">
                         <h3>Pre-training Generalization of<br>Embodied Foundation Models</h3>
                     </div>
-                    
+
                     <div class="roadmap-tree primary-tree">
-                        <a href="#robocoin" class="rm-card">
-                            <h4>RoboCOIN: An Open-Sourced Bimanual Robotic Data Collection for Integrated Manipulation. <span class="rm-tag preprint">Preprint</span></h4>
-                        </a>
                         <a href="#shortcut" class="rm-card">
-                            <h4>Shortcut Learning in Generalist Robot Policies. <span class="rm-tag">CoRL 2025</span></h4>
+                            <h4>Shortcut Learning in Generalist Robot Policies. <span class="rm-tag">CoRL 2025</span>
+                            </h4>
                         </a>
-                        <a href="#pcd" class="rm-card">
-                            <h4>Policy Contrastive Decoding. <span class="rm-tag">ICLR 2026</span></h4>
-                        </a>
-                        <a href="#inspire" class="rm-card">
-                            <h4>Intrinsic Spatial Reasoning. <span class="rm-tag">ICRA 2026</span></h4>
-                        </a>
+                        <div class="roadmap-tree sub-tree">
+                            <a href="#pcd" class="rm-card">
+                                <h4>Policy Contrastive Decoding. <span class="rm-tag">ICLR 2026</span></h4>
+                            </a>
+                            <a href="#inspire" class="rm-card">
+                                <h4>Intrinsic Spatial Reasoning. <span class="rm-tag">ICRA 2026</span></h4>
+                            </a>
+                        </div>
                         <a href="#long-tail" class="rm-card">
-                            <h4>Beyond the Majority: Long-tail Imitation Learning for Robotic Manipulation. <span class="rm-tag">ICRA 2026</span></h4>
+                            <h4>Beyond the Majority: Long-tail Imitation Learning for Robotic Manipulation. <span
+                                    class="rm-tag">ICRA 2026</span></h4>
+                        </a>
+                        <a href="#robocoin" class="rm-card">
+                            <h4>RoboCOIN: An Open-Sourced Bimanual Robotic Data Collection for Integrated Manipulation.
+                                <span class="rm-tag preprint">Preprint</span>
+                            </h4>
                         </a>
                         <a href="#sim-human" class="rm-card">
-                            <h4>Sim-and-Human Co-training for Data-Efficient and Generalizable Robotic Manipulation. <span class="rm-tag preprint">Preprint</span></h4>
+                            <h4>Sim-and-Human Co-training for Data-Efficient and Generalizable Robotic Manipulation.
+                                <span class="rm-tag preprint">Preprint</span>
+                            </h4>
                         </a>
                         <a href="#mivla" class="rm-card">
-                            <h4>MiVLA: Towards Generalizable Vision-Language-Action Model with Human-Robot Mutual Imitation Pre-training. <span class="rm-tag preprint">Preprint</span></h4>
+                            <h4>MiVLA: Towards Generalizable Vision-Language-Action Model with Human-Robot Mutual
+                                Imitation Pre-training. <span class="rm-tag preprint">Preprint</span></h4>
                         </a>
                     </div>
                 </div>
@@ -70,7 +158,10 @@
                 <!-- Shift Arrow (Paradigm Shift) -->
                 <div class="roadmap-divider">
                     <span class="shift-text">Paradigm Shift</span>
-                    <svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                    <svg viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" fill="none" />
+                    </svg>
                 </div>
 
                 <!-- Column 3: Self-learning -->
@@ -80,10 +171,12 @@
                     </div>
                     <div class="roadmap-tree primary-tree">
                         <a href="#in-context" class="rm-card">
-                            <h4>In-Context Adaptation for Generalizable Imitation Learning. <span class="rm-tag">RemembeRL Workshop Spotlight, CoRL 2025</span></h4>
+                            <h4>In-Context Adaptation for Generalizable Imitation Learning. <span
+                                    class="rm-tag">RemembeRL Workshop Spotlight, CoRL 2025</span></h4>
                         </a>
                         <a href="#test-time" class="rm-card">
-                            <h4>Test-Time Scaling of Vision-Language-Action Models via Self-Certainty. <span class="rm-tag">Eval&Deploy Workshop, CoRL 2025</span></h4>
+                            <h4>Test-Time Scaling of Vision-Language-Action Models via Self-Certainty. <span
+                                    class="rm-tag">Eval&Deploy Workshop, CoRL 2025</span></h4>
                         </a>
                         <div class="rm-card future-card">
                             <h4>Coming Soon ...</h4>
@@ -92,16 +185,15 @@
                 </div>
 
             </div>
-            
-            <p class="graph-hint">💡 Tap on any paper block above to scroll to its detailed entry.</p>
         </section>
 
         <section class="publications-list" id="projects-container">
             <!-- Projects injected by JS -->
         </section>
     </div>
-    
+
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>

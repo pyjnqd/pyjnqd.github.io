@@ -37,11 +37,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         el.innerHTML = `
-            <h3 class="publication-title">${p.title}</h3>
-            ${authorsHTML}
-            <p class="publication-venue"><span class="venue-name">${venueText}</span></p>
-            <p class="publication-desc">${p.description}</p>
-            ${linksHTML ? `<div class="publication-links">${linksHTML}</div>` : ''}
+            <div class="publication-content-wrapper">
+                ${p.image ? `<div class="publication-image"><img src="${p.image}" alt="${p.title}"></div>` : ''}
+                <div class="publication-text-info">
+                    <div class="publication-header">
+                        <h3 class="publication-title">${p.title}</h3>
+                        ${linksHTML ? `<div class="publication-links inline-links">${linksHTML}</div>` : ''}
+                    </div>
+                    ${authorsHTML}
+                    <p class="publication-venue"><span class="venue-name">${venueText}</span></p>
+                    <p class="publication-desc">${p.description}</p>
+                </div>
+            </div>
         `;
         container.appendChild(el);
     });
