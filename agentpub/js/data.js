@@ -1,0 +1,111 @@
+// Publications sorted by priority (Preprints first, then chronological).
+const projectsData = [
+    {
+        id: "sim-human",
+        title: "Sim-and-Human Co-training for Data-Efficient and Generalizable Robotic Manipulation",
+        venue: "Preprint",
+        status: "",
+        url: "https://kaipengfang.github.io/sim-and-human/",
+        pdf: "https://arxiv.org/pdf/2601.19406",
+        authors: "Kaipeng Fang, Weiqing Liang, Yuyang Li, Ji Zhang, Pengpeng Zeng, Lianli Gao, Jingkuan Song, Heng Tao Shen",
+        description: "Leverages the complementarity between simulation and human video data to build a joint pre-training pipeline, significantly improving policy generalization.",
+        isPreprint: true,
+        sortKey: "2026-01"
+    },
+    {
+        id: "mivla",
+        title: "MiVLA: Towards Generalizable Vision-Language-Action Model with Human-Robot Mutual Imitation Pre-training",
+        venue: "Preprint",
+        status: "",
+        url: "https://struggleyin.github.io/MiVLA_WEB/",
+        pdf: "https://arxiv.org/pdf/2512.15411",
+        authors: "Zhenhan Yin, Xuanhan Wang, Jiahao Jiang, Kaiyuan Deng, Pengqi Chen, Shuangle Li, Chong Liu, Xing Xu, Jingkuan Song, Lianli Gao, Heng Tao Shen",
+        description: "Proposes mutual imitation pre-training between human and robot data, reducing reliance on real-robot demonstrations.",
+        isPreprint: true,
+        sortKey: "2025-12"
+    },
+    {
+        id: "robocoin",
+        title: "RoboCOIN: An Open-Sourced Bimanual Robotic Data Collection for Integrated Manipulation",
+        venue: "Preprint",
+        status: "",
+        url: "https://flagopen.github.io/RoboCOIN/",
+        pdf: "https://arxiv.org/pdf/2511.17441",
+        authors: "Shihan Wu*, Xuecheng Liu*, Shaoxuan Xie*, Pengwei Wang*, Xinghang Li*, Bowen Yang, Zhe Li, Kai Zhu, Hongyu Wu, Yiheng Liu, Zhaoye Long, Yue Wang, Chong Liu, Dihan Wang, Ziqiang Ni, Xiang Yang, You Liu, Ruoxuan Feng, Runtian Xu, Lei Zhang, Denghang Huang, Chenghao Jin, Anlan Yin, Xinlong Wang, Zhenguo Sun, Junkai Zhao, Mengfei Du, Mingyu Cao, Xiansheng Chen, Hongyang Cheng, Xiaojie Zhang, Yankai Fu, Ning Chen, Cheng Chi, Sixiang Chen, Huaihai Lyu, Xiaoshuai Hao, Yequan Wang, Bo Lei, Dong Liu, Xi Yang, Yance Jiao, Tengfei Pan, Yunyan Zhang, Songjing Wang, Ziqian Zhang, Xu Liu, Ji Zhang, Caowei Meng, Zhizheng Zhang, Jiyang Gao, Song Wang, Xiaokun Leng, Zhiqiang Xie, Zhenzhen Zhou, Peng Huang, Wu Yang, Yandong Guo, Yichao Zhu, Suibing Zheng, Hao Cheng, Xinmin Ding, Yang Yue, Huanqian Wang, Chi Chen, Jingrui Pang, YuXi Qian, Haoran Geng, Lianli Gao, Haiyuan Li, Bin Fang, Gao Huang, Yaodong Yang, Hao Dong, He Wang, Hang Zhao, Yadong Mu, Di Hu, Hao Zhao, Tiejun Huang, Shanghang Zhang, Yonghua Lin, Zhongyuan Wang, Guocai Yao",
+        description: "An open-source bimanual data collection framework for large-scale robotic manipulation research.",
+        isPreprint: true,
+        sortKey: "2025-11"
+    },
+    {
+        id: "long-tail",
+        title: "Beyond the Majority: Long-tail Imitation Learning for Robotic Manipulation",
+        venue: "ICRA 2026",
+        status: "",
+        url: "https://mldxy.github.io/Project-VLA-long-tail/",
+        pdf: "https://arxiv.org/pdf/2602.06512",
+        authors: "Junhong Zhu*, Ji Zhang*, Jingkuan Song, Lianli Gao, Heng Tao Shen",
+        description: "Introduces the first long-tail imitation learning benchmark and an augmented trajectory strategy for underrepresented tasks.",
+        isPreprint: false,
+        sortKey: "2026-02"
+    },
+    {
+        id: "pcd",
+        title: "Policy Contrastive Decoding for Robotic Foundation Models",
+        venue: "ICLR 2026",
+        status: "",
+        url: "https://koorye.github.io/PCD/",
+        pdf: "https://arxiv.org/pdf/2505.13255",
+        authors: "Shihan Wu*, Xu Luo*, Ji Zhang, Junlin Xie, Jingkuan Song, Heng Tao Shen, Lianli Gao",
+        description: "A training-free, plug-and-play contrastive decoding method that eliminates spurious correlations in robotic policies at inference time.",
+        isPreprint: false,
+        sortKey: "2025-05b"
+    },
+    {
+        id: "inspire",
+        title: "InSpire: Vision-Language-Action Models with Intrinsic Spatial Reasoning",
+        venue: "ICRA 2026",
+        status: "",
+        url: "https://koorye.github.io/Inspire/",
+        pdf: "https://arxiv.org/pdf/2505.13888",
+        authors: "Ji Zhang*, Shihan Wu*, Xu Luo, Hao Wu, Lianli Gao, Heng Tao Shen, Jingkuan Song",
+        description: "Enhances VLA spatial reasoning ability without external data by addressing visual spurious correlations.",
+        isPreprint: false,
+        sortKey: "2025-05a"
+    },
+    {
+        id: "shortcut",
+        title: "Shortcut Learning in Generalist Robot Policies: The Role of Dataset Diversity and Fragmentation",
+        venue: "CoRL 2025",
+        status: "",
+        url: "https://lucky-light-sun.github.io/proj/shortcut-learning-in-grps/",
+        pdf: "https://arxiv.org/pdf/2508.06426",
+        authors: "Youguang Xing*, Xu Luo*, Junlin Xie, Lianli Gao, Hengtao Shen, Jingkuan Song",
+        description: "Reveals shortcut learning in generalist robot policies and demonstrates that dataset diversity is key to mitigating it.",
+        isPreprint: false,
+        sortKey: "2025-08"
+    },
+    {
+        id: "in-context",
+        title: "In-Context Adaptation for Generalizable Imitation Learning",
+        venue: "CoRL 2025 Workshop on RemembeRL",
+        status: "(Spotlight)",
+        url: null,
+        pdf: "https://openreview.net/pdf?id=mBHHyZrWE1",
+        authors: "Junlin Xie, Xu Luo, Hao Wu, Ji Zhang, Youguang Xing, Lianli Gao, Jingkuan Song",
+        description: "Uses history-conditioned inference to adapt policies to unseen dynamics online, improving generalization robustness.",
+        isPreprint: false,
+        sortKey: "2025-04b"
+    },
+    {
+        id: "test-time",
+        title: "Test-Time Scaling of Vision-Language-Action Models via Self-Certainty",
+        venue: "CoRL 2025 Workshop on Eval&Deploy",
+        status: "",
+        url: null,
+        pdf: "assets/pdfs/Test-Time Scaling of Vision-Language-Action Models via Self-Certainty.pdf",
+        authors: "Xu Luo*, Jiaying Yang*, Zehang Bai, Junlin Xie, Ji Zhang, Lianli Gao, Jingkuan Song",
+        description: "Applies test-time compute scaling to VLA models, using self-certainty to select higher-quality action predictions.",
+        isPreprint: false,
+        sortKey: "2025-04a"
+    }
+];

@@ -1,0 +1,355 @@
+:root {
+    --primary: #2563eb;
+    --text: #1f2937;
+    --text-light: #6b7280;
+    --bg: #f9fafb;
+    --card-bg: #ffffff;
+    --border: #e5e7eb;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.page-header {
+    margin-bottom: 60px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 20px;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: #111;
+}
+
+/* Roadmap Graph Section (Custom CSS Hierarchical Layout) */
+.roadmap-section {
+    margin-bottom: 60px;
+}
+
+.section-subtitle {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #374151;
+}
+
+.roadmap-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: flex-start;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 480px;
+    padding: 16px;
+    width: 100%;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #f8fafc;
+    box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+/* Elegant Scrollbar for the roadmap grid */
+.roadmap-grid::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+.roadmap-grid::-webkit-scrollbar-track {
+    background: transparent;
+}
+.roadmap-grid::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+.roadmap-grid::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+.roadmap-col {
+    flex: 1 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.roadmap-header {
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    padding: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+    height: 110px; /* Force strictly equal height for all headers */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.theme-brown {
+    background-color: #9C451D; /* Match original saddle brown */
+}
+
+.roadmap-header h3 {
+    font-size: 1.05rem;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.en-title {
+    font-size: 0.85rem;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.roadmap-divider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    color: #9C451D;
+    font-weight: 700;
+}
+
+.shift-text {
+    font-size: 0.85rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.roadmap-divider svg {
+    width: 32px;
+    height: 32px;
+    margin-top: 8px;
+}
+
+.roadmap-tree {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.primary-tree::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    bottom: 20px;
+    width: 3px;
+    background-color: #9C451D;
+}
+
+.rm-card {
+    display: block;
+    text-decoration: none;
+    background-color: #4B5563; /* Match dark slate gray */
+    color: white;
+    padding: 14px 16px;
+    border-radius: 8px;
+    position: relative;
+    transition: transform 0.2s, background-color 0.2s;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+    margin-left: 36px;
+}
+
+.rm-card::before {
+    content: '';
+    position: absolute;
+    left: -16px;
+    top: 50%;
+    width: 16px;
+    height: 3px;
+    background-color: #9C451D;
+}
+
+.rm-card:hover {
+    transform: translateY(-2px);
+    background-color: #374151;
+}
+
+.rm-card h4 {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.rm-tag {
+    color: #FDE047; /* Yellow highlight */
+}
+
+.rm-tag.preprint {
+    font-style: italic;
+}
+
+.empty-tree::before {
+    display: none;
+}
+
+.future-card {
+    background-color: transparent;
+    border: 2px dashed #9CA3AF;
+    color: #9CA3AF;
+    text-align: center;
+}
+
+.future-card h4 {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.future-card:hover {
+    transform: none;
+    background-color: #f3f4f6;
+}
+
+.graph-hint {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-light);
+    margin-top: 24px;
+    font-style: italic;
+}
+
+/* Responsive Overrides */
+@media (max-width: 768px) {
+    .roadmap-grid {
+        flex-direction: column;
+        align-items: stretch;
+        overflow-y: visible;
+        max-height: none;
+    }
+    .roadmap-col {
+        width: 100%;
+        max-width: 100%;
+    }
+    .roadmap-header {
+        height: auto;
+        min-height: 80px;
+    }
+    .roadmap-divider {
+        padding: 10px 0;
+    }
+    .roadmap-divider svg {
+        transform: rotate(90deg);
+    }
+}
+
+.publication-item {
+    background: var(--card-bg);
+    padding: 32px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    border: 1px solid var(--border);
+    transition: transform 0.2s, box-shadow 0.2s;
+    scroll-margin-top: 20px;
+}
+
+.publication-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,0.1);
+}
+
+.publication-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.publication-authors {
+    font-size: 0.95rem;
+    color: var(--text);
+    margin-bottom: 8px;
+}
+
+.publication-venue {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #4b5563;
+    margin-bottom: 12px;
+}
+
+.venue-name {
+    color: var(--primary);
+}
+
+.publication-desc {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    margin-bottom: 20px;
+}
+
+.publication-links {
+    display: flex;
+    gap: 12px;
+}
+
+.link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text);
+    background: #fff;
+    transition: all 0.2s;
+}
+
+.link-btn:hover {
+    background: #f3f4f6;
+    border-color: #d1d5db;
+}
+
+.link-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Author Toggle Style */
+.toggle-authors {
+    background: none;
+    border: none;
+    color: var(--primary);
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-left: 8px;
+    padding: 0;
+}
+
+.toggle-authors:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+    body { padding: 40px 15px; }
+    .page-title { font-size: 2rem; }
+    .publication-item { padding: 20px; }
+}
