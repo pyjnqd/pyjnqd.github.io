@@ -42,13 +42,13 @@ body {
 
 /* Roadmap Graph Section (Custom CSS Hierarchical Layout) */
 .roadmap-section {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 /* Research Vision Section */
 .research-vision {
-    margin-bottom: 60px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
 }
 
 .vision-content {
@@ -90,11 +90,11 @@ body {
 }
 
 .research-theme {
-    margin: 80px 0;
+    margin: 50px 0;
     /* 在板块间留出空余 */
     background-color: #f1f5f9;
     /* 比背景稍深，形成明确色块 */
-    padding: 80px 0;
+    padding: 50px 0;
     /* 上下预留呼吸感，左右不需要 padding（由内部容器控制） */
     border-top: 1px solid #e2e8f0;
     border-bottom: 1px solid #e2e8f0;
