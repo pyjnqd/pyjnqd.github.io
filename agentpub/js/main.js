@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         el.innerHTML = `
             <div class="publication-content-wrapper">
-                ${p.image ? `<div class="publication-image"><img src="${p.image}" alt="${p.title}"></div>` : ''}
+                ${p.image ? `<div class="publication-image"><img src="${p.image}" alt="${p.title}" loading="lazy"></div>` : ''}
                 <div class="publication-text-info">
                     <div class="publication-header">
                         <h3 class="publication-title">${p.title}</h3>

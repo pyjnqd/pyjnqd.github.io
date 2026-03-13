@@ -9,7 +9,7 @@ const projectsData = [
         pdf: "https://arxiv.org/pdf/2601.19406",
         authors: "Kaipeng Fang, Weiqing Liang, Yuyang Li, Ji Zhang, Pengpeng Zeng, Lianli Gao, Jingkuan Song, Heng Tao Shen",
         description: "Leverages the complementarity between simulation and human video data to build a joint pre-training pipeline, significantly improving policy generalization.",
-        image: "assets/images/sim-human.png",
+        image: "assets/images/sim-human.webp",
         isPreprint: true,
         sortKey: "2026-01"
     },
@@ -22,7 +22,7 @@ const projectsData = [
         pdf: "https://arxiv.org/pdf/2512.15411",
         authors: "Zhenhan Yin, Xuanhan Wang, Jiahao Jiang, Kaiyuan Deng, Pengqi Chen, Shuangle Li, Chong Liu, Xing Xu, Jingkuan Song, Lianli Gao, Heng Tao Shen",
         description: "Proposes mutual imitation pre-training between human and robot data, reducing reliance on real-robot demonstrations.",
-        image: "assets/images/mivla.png",
+        image: "assets/images/mivla.webp",
         isPreprint: true,
         sortKey: "2025-12"
     },
@@ -35,7 +35,7 @@ const projectsData = [
         pdf: "https://arxiv.org/pdf/2511.17441",
         authors: "Shihan Wu*, Xuecheng Liu*, Shaoxuan Xie*, Pengwei Wang*, Xinghang Li*, Bowen Yang, Zhe Li, Kai Zhu, Hongyu Wu, Yiheng Liu, Zhaoye Long, Yue Wang, Chong Liu, Dihan Wang, Ziqiang Ni, Xiang Yang, You Liu, Ruoxuan Feng, Runtian Xu, Lei Zhang, Denghang Huang, Chenghao Jin, Anlan Yin, Xinlong Wang, Zhenguo Sun, Junkai Zhao, Mengfei Du, Mingyu Cao, Xiansheng Chen, Hongyang Cheng, Xiaojie Zhang, Yankai Fu, Ning Chen, Cheng Chi, Sixiang Chen, Huaihai Lyu, Xiaoshuai Hao, Yequan Wang, Bo Lei, Dong Liu, Xi Yang, Yance Jiao, Tengfei Pan, Yunyan Zhang, Songjing Wang, Ziqian Zhang, Xu Liu, Ji Zhang, Caowei Meng, Zhizheng Zhang, Jiyang Gao, Song Wang, Xiaokun Leng, Zhiqiang Xie, Zhenzhen Zhou, Peng Huang, Wu Yang, Yandong Guo, Yichao Zhu, Suibing Zheng, Hao Cheng, Xinmin Ding, Yang Yue, Huanqian Wang, Chi Chen, Jingrui Pang, YuXi Qian, Haoran Geng, Lianli Gao, Haiyuan Li, Bin Fang, Gao Huang, Yaodong Yang, Hao Dong, He Wang, Hang Zhao, Yadong Mu, Di Hu, Hao Zhao, Tiejun Huang, Shanghang Zhang, Yonghua Lin, Zhongyuan Wang, Guocai Yao",
         description: "An open-source bimanual data collection framework for large-scale robotic manipulation research.",
-        image: "assets/images/robocoin.png",
+        image: "assets/images/robocoin.webp",
         isPreprint: true,
         sortKey: "2025-11"
     },
@@ -48,7 +48,7 @@ const projectsData = [
         pdf: "https://arxiv.org/pdf/2602.06512",
         authors: "Junhong Zhu*, Ji Zhang*, Jingkuan Song, Lianli Gao, Heng Tao Shen",
         description: "Introduces the first long-tail imitation learning benchmark and an augmented trajectory strategy for underrepresented tasks.",
-        image: "assets/images/long-tail.png",
+        image: "assets/images/long-tail.webp",
         isPreprint: false,
         sortKey: "2026-02"
     },
@@ -61,7 +61,7 @@ const projectsData = [
         pdf: "https://arxiv.org/pdf/2505.13255",
         authors: "Shihan Wu*, Xu Luo*, Ji Zhang, Junlin Xie, Jingkuan Song, Heng Tao Shen, Lianli Gao",
         description: "A training-free, plug-and-play contrastive decoding method that eliminates spurious correlations in robotic policies at inference time.",
-        image: "assets/images/pcd.png",
+        image: "assets/images/pcd.webp",
         isPreprint: false,
         sortKey: "2025-05b"
     },
@@ -74,7 +74,7 @@ const projectsData = [
         pdf: "https://arxiv.org/pdf/2505.13888",
         authors: "Ji Zhang*, Shihan Wu*, Xu Luo, Hao Wu, Lianli Gao, Heng Tao Shen, Jingkuan Song",
         description: "Enhances VLA spatial reasoning ability without external data by addressing visual spurious correlations.",
-        image: "assets/images/inspire.png",
+        image: "assets/images/inspire.webp",
         isPreprint: false,
         sortKey: "2025-05a"
     },
@@ -87,7 +87,7 @@ const projectsData = [
         pdf: "https://arxiv.org/pdf/2508.06426",
         authors: "Youguang Xing*, Xu Luo*, Junlin Xie, Lianli Gao, Hengtao Shen, Jingkuan Song",
         description: "Reveals shortcut learning in generalist robot policies and demonstrates that dataset diversity is key to mitigating it.",
-        image: "assets/images/shortcut.png",
+        image: "assets/images/shortcut.webp",
         isPreprint: false,
         sortKey: "2025-08"
     },
@@ -100,7 +100,7 @@ const projectsData = [
         pdf: "https://openreview.net/pdf?id=mBHHyZrWE1",
         authors: "Junlin Xie, Xu Luo, Hao Wu, Ji Zhang, Youguang Xing, Lianli Gao, Jingkuan Song",
         description: "Uses history-conditioned inference to adapt policies to unseen dynamics online, improving generalization robustness.",
-        image: "assets/images/in-context.png",
+        image: "assets/images/in-context.webp",
         isPreprint: false,
         sortKey: "2025-04b"
     },
@@ -113,7 +113,7 @@ const projectsData = [
         pdf: "assets/pdfs/Test-Time Scaling of Vision-Language-Action Models via Self-Certainty.pdf",
         authors: "Xu Luo*, Jiaying Yang*, Zehang Bai, Junlin Xie, Ji Zhang, Lianli Gao, Jingkuan Song",
         description: "Applies test-time compute scaling to VLA models, using self-certainty to select higher-quality action predictions.",
-        image: "assets/images/test-time.jpg",
+        image: "assets/images/test-time.webp",
         isPreprint: false,
         sortKey: "2025-04a"
     }
